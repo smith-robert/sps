@@ -136,11 +136,7 @@
     <div class='row'>
       <div class="twelve columns">
 
-        <ul id="next-gigs">
-          <li>No Events planned yet... <img src="http://kevin.deldycke.com/wp-includes/images/smilies/icon_sad.gif" alt=":(" class="wp-smiley"> </li>
-          <li>Feeds: <a href='http://www.google.com/calendar/feeds/coolcavemen.com_h3432m0aeeq5c6dakki50giqeo%40group.calendar.google.com/public/full?orderby=starttime&#038;sortorder=ascending&#038;futureevents=true'>RSS</a>, <a href='http://www.google.com/calendar/ical/coolcavemen.com_h3432m0aeeq5c6dakki50giqeo%40group.calendar.google.com/public/basic.ics'>iCal</a>.</li>
-        </ul>
-
+        <?php include 'includes/events.php';?>
 
       </div>
     </div>
@@ -197,61 +193,8 @@
 <!-- Initialize JS Plugins -->
 <script src="../javascripts/app.js"></script>
 
-<script type="text/javascript">
-$(window).load(function() {
- $('#slider').orbit();
-});
-</script>
+<script src="../javascripts/jquery.frontpage.slider.js" type="text/javascript"></script>
 
-<script type="text/javascript" charset="utf-8">
-jQuery(function(){
-        // Get list of upcoming iCal events formatted in JSON
-
-        var event_url = "https://www.google.com/calendar/feeds/tommy.t.lee%40gmail.com/public/full";
-        event_url = event_url + "?orderby=starttime&sortorder=ascending&futureevents=true&alt=json";
-        jQuery.getJSON(event_url, function(data){
-            // Utility method to pad a string on the left
-            // Source: http://sajjadhossain.com/2008/10/31/javascript-string-trimming-and-padding/
-            function lpad(str, pad_string, length) {
-              var str = new String(str);
-              while (str.length < length)
-                str = pad_string + str;
-              return str;
-            };
-            // Parse and render each event
-            jQuery.each(data.feed.entry, function(i, item){
-              if(i == 0) {
-                jQuery("#next-gigs li").first().hide();
-              };
-              var event_url = jQuery.trim(item.content.$t);
-              var event_header = item.title.$t;
-              if(event_url.length > 0) {
-                event_header = "<a href='" + event_url + "'>" + event_header + "</a>";
-              };
-                // Format the date string
-                var d = new Date(item.gd$when[0].startTime);
-                var d_string = '<strong>' + d.getFullYear() + '-' + lpad((d.getMonth() + 1),'0',2) + '-' + lpad((d.getDate()),'0',2) + '</strong>';
-                if(d.getHours() != 0 || d.getMinutes() != 0) {
-                  d_string = d_string + ' at ' + lpad(d.getHours(), '0', 2) + ':' + lpad(d.getMinutes(), '0', 2);
-                };
-                // Render the event
-                jQuery("#next-gigs li").last().before(
-                  "<li><strong>"
-                  + event_header
-                  + "</strong><br/>Date: "
-                  + d_string
-                  + "<br/>Location: <a href='http://maps.google.com/maps?q="
-                  + item.gd$where[0].valueString
-                  + "' target='_blank'>"
-                  + item.gd$where[0].valueString
-                  + "</a>"
-                  + "<br />Description:"
-                  + event_url
-                  + "</li>"
-                  );
-              });
-});
-});
-</script>
+<script src="../javascripts/jquery.events.js" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>
