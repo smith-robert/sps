@@ -37,8 +37,8 @@
           <a href="#">SPS Nav</a>
           <ul class="dropdown">
             <li><a href="about.php">About</a></li>
-            <li><a href="#">Events</a></li>
-            <li><a href="#">People</a></li>
+            <li><a href="events.php">Events</a></li>
+            <li><a href="people.php">People</a></li>
             <li class="divider"></li>
             <li><a href="#">See all &rarr;</a></li>
           </ul>

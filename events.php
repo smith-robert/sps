@@ -5,13 +5,28 @@
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
- <!-- Header and Nav -->
-  <?php include 'includes/header.php'; ?>
-  
+<head>
+  <meta charset="utf-8" />
 
-  <!-- End Header and Nav -->
+  <!-- Set the viewport width to device width for mobile -->
+  <meta name="viewport" content="width=device-width" />
 
-  <!-- Main Grid Section -->
+  <title>Society of Physics Students - UCF </title>
+
+  <!-- Included CSS Files (Uncompressed) -->
+  <!--
+  <link rel="stylesheet" href="stylesheets/foundation.css">
+-->
+
+<!-- Included CSS Files (Compressed) -->
+<link rel="stylesheet" href="../stylesheets/foundation.min.css">
+<link rel="stylesheet" href="../stylesheets/foundation.custom.css">
+<link rel="stylesheet" href="../stylesheets/app.css">
+
+<script src="../javascripts/modernizr.foundation.js"></script>
+</head>
+<body>
+<?php include 'includes/header.php';?>  
 
   <div class="row">
 
@@ -78,9 +93,11 @@
 -->
 
 <!-- Included JS Files (Compressed) -->
+<script src="../javascripts/jquery.js"></script>
+<script src="../javascripts/foundation.min.js"></script>
 
-<script src="../javascripts/jquery.frontpage.slider.js" type="text/javascript"></script>
-
+<!-- Initialize JS Plugins -->
+<script src="../javascripts/app.js"></script>
 <script src="../javascripts/jquery.events.js" type="text/javascript" charset="utf-8"></script>
 </body>
 </html>
