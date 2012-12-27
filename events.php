@@ -5,24 +5,6 @@
 <!--[if IE 7]>    <html class="no-js lt-ie9 lt-ie8" lang="en"> <![endif]-->
 <!--[if IE 8]>    <html class="no-js lt-ie9" lang="en"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js" lang="en"> <!--<![endif]-->
-<<<<<<< HEAD
- <!-- Header and Nav -->
-  <?php include 'includes/header.php'; ?>
-  
-
-  <!-- End Header and Nav -->
-
-  <!-- Main Grid Section -->
-
-  <div class="row">
-
-    <div class="four columns">
-      <div class="panel">
-         <iframe src="https://www.google.com/calendar/embed?src=tommy.t.lee%40gmail.com&ctz=America/New_York" style="border: 0" width="100%" height="300" frameborder="0" scrolling="no"></iframe>
-       </div>
-       </div>
-    <div class="eight columns">
-=======
 <head>
   <meta charset="utf-8" />
 
@@ -55,7 +37,6 @@
        </div>
        </div>
     <div class="four columns">
->>>>>>> dev
       <div class="panel">
       <?php include 'includes/events.php';?>
     </div>
