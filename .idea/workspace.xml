@@ -64,6 +64,7 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state line="30" column="0" selection-start="1054" selection-end="1054" vertical-scroll-proportion="-4.576923">
               <folding>
                 <marker date="1356519832000" expanded="true" signature="1186:1210" placeholder="..." />
@@ -93,6 +94,13 @@
                 <marker date="1356519832000" expanded="true" signature="4932:5040" placeholder="..." />
                 <marker date="1356519832000" expanded="true" signature="4967:5029" placeholder="..." />
                 <marker date="1356519832000" expanded="true" signature="5191:6296" placeholder="..." />
+=======
+            <state line="55" column="0" selection-start="1658" selection-end="1658" vertical-scroll-proportion="-4.576923">
+              <folding>
+                <marker date="1356612872521" expanded="true" signature="1186:1210" placeholder="..." />
+                <marker date="1356612872521" expanded="true" signature="1306:1490" placeholder="..." />
+                <marker date="1356612872521" expanded="true" signature="5638:6743" placeholder="..." />
+>>>>>>> dev
               </folding>
             </state>
           </provider>
@@ -102,6 +110,7 @@
         <entry file="file://$PROJECT_DIR$/includes/header.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
+<<<<<<< HEAD
               <folding>
                 <marker date="1356519903000" expanded="true" signature="20:2136" placeholder="..." />
                 <marker date="1356519903000" expanded="true" signature="29:242" placeholder="..." />
@@ -117,6 +126,9 @@
                 <marker date="1356519903000" expanded="true" signature="1712:2032" placeholder="..." />
                 <marker date="1356519903000" expanded="true" signature="1776:2018" placeholder="..." />
               </folding>
+=======
+              <folding />
+>>>>>>> dev
             </state>
           </provider>
         </entry>
@@ -331,6 +343,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state line="30" column="0" selection-start="1054" selection-end="1054" vertical-scroll-proportion="-4.576923">
           <folding>
             <marker date="1356519832000" expanded="true" signature="1186:1210" placeholder="..." />
@@ -360,6 +373,13 @@
             <marker date="1356519832000" expanded="true" signature="4932:5040" placeholder="..." />
             <marker date="1356519832000" expanded="true" signature="4967:5029" placeholder="..." />
             <marker date="1356519832000" expanded="true" signature="5191:6296" placeholder="..." />
+=======
+        <state line="55" column="0" selection-start="1658" selection-end="1658" vertical-scroll-proportion="-4.576923">
+          <folding>
+            <marker date="1356612872521" expanded="true" signature="1186:1210" placeholder="..." />
+            <marker date="1356612872521" expanded="true" signature="1306:1490" placeholder="..." />
+            <marker date="1356612872521" expanded="true" signature="5638:6743" placeholder="..." />
+>>>>>>> dev
           </folding>
         </state>
       </provider>
@@ -397,6 +417,7 @@
     <entry file="file://$PROJECT_DIR$/includes/header.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="6" selection-start="6" selection-end="6" vertical-scroll-proportion="0.0">
+<<<<<<< HEAD
           <folding>
             <marker date="1356519903000" expanded="true" signature="20:2136" placeholder="..." />
             <marker date="1356519903000" expanded="true" signature="29:242" placeholder="..." />
@@ -412,6 +433,9 @@
             <marker date="1356519903000" expanded="true" signature="1712:2032" placeholder="..." />
             <marker date="1356519903000" expanded="true" signature="1776:2018" placeholder="..." />
           </folding>
+=======
+          <folding />
+>>>>>>> dev
         </state>
       </provider>
     </entry>

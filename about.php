@@ -11,7 +11,7 @@
   <!-- Set the viewport width to device width for mobile -->
   <meta name="viewport" content="width=device-width" />
 
-  <title>Welcome to Foundation | Blog</title>
+  <title>SPS @ UCF | Constitution</title>
 
   <!-- Included CSS Files (Uncompressed) -->
   <!--
