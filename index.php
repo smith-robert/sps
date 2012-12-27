@@ -35,17 +35,91 @@
 
   <!-- Main Grid Section -->
   <div class="row" style="background-color:#6E747A">
-    <div class="one columns">
+    <div class="ten columns centered">
+       <div id="slider">
+          <div data-caption="#captionTwo"><img src="../images/sps/frontpage/group1.jpg"/></div>
+          <div data-caption="#captionThree"><img src="../images/sps/frontpage/group2.jpg"/></div>
+          <div data-caption="#captionFour"><img src="../images/sps/frontpage/group3.jpg" /></div>
+        </div>
+      <span class="orbit-caption" id="captionTwo">Here is a caption2...</span>
+      <span class="orbit-caption" id="captionThree">Here is a caption3...</span>
+      <span class="orbit-caption" id="captionFour">Here is a caption3...</span>
+
     </div>
-    <div class="ten columns">
-      <div id="slider">
-        <img src="../images/sps/frontpage/group1.jpg" />
-        <img src="../images/sps/frontpage/group2.jpg" />
-        <img src="../images/sps/frontpage/group3.jpg" />
+  </div>
+
+  <div class="row">
+
+    <div class="six columns">
+      <h5>Welcome </h5>
+      <p>Please visit the <a href="http://www.spsnational.org/about/benefits.htm">SPS Membership</a> page for information on how to join the Society of Physics students. Benefits include subscription to <b>Physics Today</b> magazine and one of its online journals. You must be a member if you with to participate in this local chapter. </p>
+      <div class="row">
+        <div class="twelve columns">
+          <div class="panel callout radius">
+           <h4> Announcements </h4>
+           <hr />
+           <p> Dr. Costas Efthimiou accepts applications for ΣΠΣ, the Physics Honor Socienty. Those who have successfully completed several upper level physics courses, have a 3.0 overall GPA, and a 3.5 GPA in math and physics may bring an official transcipt to PSB 131 for Dr. Efthimiou to review. </p>
+           <hr />
+         </div>
+       </div>
+     </div>
+   </div>
+
+   <div class="six columns">
+    <div class="panel">
+      <dl class="tabs">
+        <dd class="active"><a href="#simple1">Membership</a></dd>
+        <dd><a href="#simple2">Meetings</a></dd>
+        <dd><a href="#simple3">Mission</a></dd>
+      </dl>
+
+      <ul class="tabs-content">
+        <li class="active" id="simple1Tab">
+          <h5>Welcome </h5>
+          <p>Please visit the <a href="http://www.spsnational.org/about/benefits.htm">SPS Membership</a> page for information on how to join the Society of Physics students. Benefits include subscription to <b>Physics Today</b> magazine and one of its online journals. You must be a member if you with to participate in this local chapter. </p>
+        </li>
+        <li id="simple2Tab">
+          <h5>SPS Meetings</h5>
+          <p>We have meetings every other Tuesday in the Physical Sciences building (PSB) room 456. To be added to the mailing list for meetings and SPS group events please send an email to sps(at)ucf(dot)gmail(dot)com.
+            Please stay tuned for the Fall 2012 meeting schedule. </p>
+          </li>
+          <li id="simple3Tab">
+            <h5>Mission</h5>
+            The purpose of this Chapter is the advancement and diffusion of knowledge of the science of physics and serious encouragement of student interest in physics throughout the academic and local communities.</li>
+          </ul>
+        </div>
+        <h4> Events </h4>
+        <?php include 'includes/events.php';?>
       </div>
-      <hr />
     </div>
-    <div class="one columns">
+
+
+
+  </div>
+
+
+
+  <div class="row">
+    <div class="four columns">
+      <div class="panel">
+        <a href='http://www.aip.org/' class="th">
+          <img src="../images/sps/frontpage/AIP.jpg" /></a>
+        </p>
+      </div>
+    </div>
+    <div class="four columns">
+      <div class="panel">
+        <a href='http://www.spsnational.org/about/benefits.htm' class="th">
+          <img src="../images/sps/frontpage/SPS_LOGO.jpg" /></a>
+        </p>
+      </div>
+    </div>
+    <div class="four columns">
+      <div class="panel">
+        <a href='http://www.sps.physics.ucf.edu/images/PlanetarySciencesGroup.jpg' class="th">
+          <img src="../images/sps/frontpage/PlanetarySciencesGroup.jpg" /></a>
+        </p>
+      </div>
     </div>
   </div>
 
@@ -53,103 +127,37 @@
 
     <div class="six columns">
       <div class="panel">
-        <dl class="tabs">
-          <dd class="active"><a href="#simple1">Membership</a></dd>
-          <dd><a href="#simple2">Meetings</a></dd>
-          <dd><a href="#simple3">Mission</a></dd>
-        </dl>
-
-        <ul class="tabs-content">
-          <li class="active" id="simple1Tab">
-            <h5>Welcome </h5>
-            <p>Please visit the <a href="http://www.spsnational.org/about/benefits.htm">SPS Membership</a> page for information on how to join the Society of Physics students. Benefits include subscription to <b>Physics Today</b> magazine and one of its online journals. You must be a member if you with to participate in this local chapter. </p>
-          </li>
-          <li id="simple2Tab">
-            <h5>SPS Meetings</h5>
-            <p>We have meetings every other Tuesday in the Physical Sciences building (PSB) room 456. To be added to the mailing list for meetings and SPS group events please send an email to sps(at)ucf(dot)gmail(dot)com.
-              Please stay tuned for the Fall 2012 meeting schedule. </p>
-            </li>
-            <li id="simple3Tab">
-              <h5>Mission</h5>
-              The purpose of this Chapter is the advancement and diffusion of knowledge of the science of physics and serious encouragement of student interest in physics throughout the academic and local communities.</li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="six columns">
-         <h4> Announcements </h4>
-         <hr />
-         <p> Dr. Costas Efthimiou accepts applications for ΣΠΣ, the Physics Honor Socienty. Those who have successfully completed several upper level physics courses, have a 3.0 overall GPA, and a 3.5 GPA in math and physics may bring an official transcipt to PSB 131 for Dr. Efthimiou to review. </p>
-         <hr />
-
-         <iframe src="https://www.google.com/calendar/embed?src=tommy.t.lee%40gmail.com&ctz=America/New_York" style="border: 0" width="100%" height="300" frameborder="0" scrolling="no"></iframe>
-       </div>
-
-
-
-     </div>
-
-
-
-     <div class="row">
-      <div class="four columns">
-        <div class="panel">
-          <a href='http://www.aip.org/'>
-            <img src="../images/sps/frontpage/AIP.jpg" /></a>
-          </p>
-        </div>
-      </div>
-      <div class="four columns">
-        <div class="panel">
-          <a href='http://www.spsnational.org/about/benefits.htm'>
-            <img src="../images/sps/frontpage/SPS_LOGO.jpg" /></a>
-          </p>
-        </div>
-      </div>
-      <div class="four columns">
-        <div class="panel">
-          <a href='http://www.sps.physics.ucf.edu/images/PlanetarySciencesGroup.jpg'>
-            <img src="../images/sps/frontpage/PlanetarySciencesGroup.jpg" /></a>
-          </p>
-        </div>
+        <a href='http://www.wolframalpha.com/' class="th">
+          <img src="../images/sps/frontpage/WolframAlpha.jpg" /></a>
+        </p>
       </div>
     </div>
-
-    <div class="row">
-
-      <div class="six columns">
-        <div class="panel">
-          <a href='http://www.wolframalpha.com/'>
-            <img src="../images/sps/frontpage/WolframAlpha.jpg" /></a>
-          </p>
-        </div>
-      </div>
-      <div class="six columns">
-        <div class="panel">
-          <a href='http://mathworld.wolfram.com/'>
-            <img src="../images/sps/frontpage/WolframMathworld.jpg" /></a>
-          </p>
-        </div>
+    <div class="six columns">
+      <div class="panel">
+        <a href='http://mathworld.wolfram.com/' class="th">
+          <img src="../images/sps/frontpage/WolframMathworld.jpg" /></a>
+        </p>
       </div>
     </div>
+  </div>
 
-    <div class='row'>
-      <div class="twelve columns">
+  <div class='row'>
+    <div class="twelve columns">
 
-        <?php include 'includes/events.php';?>
 
-      </div>
+
     </div>
+  </div>
 
 
-    <!-- End Grid Section -->
+  <!-- End Grid Section -->
 
 
 
-    <!-- Footer -->
-<?php include 'includes/footer.php';?>
-  
-    <!-- Included JS Files (Uncompressed) -->
+  <!-- Footer -->
+  <?php include 'includes/footer.php';?>
+
+  <!-- Included JS Files (Uncompressed) -->
   <!--
   
   <script src="javascripts/jquery.js"></script>

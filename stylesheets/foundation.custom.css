@@ -547,7 +547,7 @@ div.orbit-wrapper div.timer:hover span.pause, div.orbit-wrapper div.timer:focus 
 /* Captions ---------------------- */
 .orbit-caption { display: none; font-family: inherit; }
 
-.orbit-wrapper .orbit-caption { background: black; background: rgba(0, 0, 0, 0.6); z-index: 30; color: white; text-align: center; padding: 7px 0; font-size: 13px; position: absolute; right: 0; bottom: 0; width: 100%; }
+.orbit-wrapper .orbit-caption { background: black; background: rgba(0, 0, 0, 0.6); z-index: 30; color: white; text-align: center; padding: 20px 0; font-size: 13px; position: absolute; right: 0; bottom: 0; width: 100%; }
 
 /* Directional Nav ---------------------- */
 div.orbit-wrapper div.slider-nav { display: block; }

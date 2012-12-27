@@ -42,7 +42,7 @@ Class GroupList
 		// $grav_url = "http://www.gravatar.com/avatar/" . md5( strtolower( trim( $email ) ) ) . "?d=" . urlencode( $default ) . "&s=" . $size;
 		$grav_url = "http://www.gravatar.com/avatar/".md5(strtolower(trim($email)))."?d=identicon"."&s=" . $size;
 		$img_tag = '<img src="'.$grav_url.'">';
-		$img_tag = '<a href="'.$mailto.'"> <img src="'.$grav_url.'"></a>';
+		$img_tag = '<a href="'.$mailto.'" class="th"> <img src="'.$grav_url.'"></a>';
 		echo $img_tag." ".$person[0]." ".$person[1]; 
 	}
 }

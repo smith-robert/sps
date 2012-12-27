@@ -94,12 +94,6 @@
 -->
 
 <!-- Included JS Files (Compressed) -->
-<<<<<<< HEAD
-
-<script src="../javascripts/jquery.frontpage.slider.js" type="text/javascript"></script>
-
-<script src="../javascripts/jquery.events.js" type="text/javascript" charset="utf-8"></script>
-=======
 <script src="../javascripts/jquery.js"></script>
 <script src="../javascripts/foundation.min.js"></script>
 
@@ -109,6 +103,5 @@
 <script type='text/javascript' src='javascripts/fullcalendar/fullcalendar.js'></script>
 <script type='text/javascript' src='javascripts/fullcalendar/gcal.js'></script>
 <script type='text/javascript' src='javascripts/jquery.calendar.gcal.js'></script>
->>>>>>> dev
 </body>
 </html>

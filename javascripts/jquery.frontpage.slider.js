@@ -1,3 +1,3 @@
 $(window).load(function() {
- $('#slider').orbit();
+ $('#slider').orbit({ fluid:'16x9', captions:'true',captionAnimation:'slideOpen'});
 });

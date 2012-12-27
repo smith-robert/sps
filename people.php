@@ -34,6 +34,11 @@
   <div class='two columns'>
   </div>
   <div class="ten columns">
+    <div class="row">
+      <div class="eight columns centered">
+      <h2> SPS Members 2012 </h2>
+      </div>
+    </div>
   <?php
   $student_list = 'students.txt';
   $char = new GroupList();
