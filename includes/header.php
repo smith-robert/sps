@@ -3,7 +3,7 @@
       <!-- Title Area -->
       <li class="name">
         <h1>
-          <a href="#">
+          <a href="/">
             SPS @ UCF
           </a>
         </h1>
@@ -36,7 +36,7 @@
          <li class="has-dropdown">
           <a href="#">SPS Nav</a>
           <ul class="dropdown">
-            <li><a href="about.html">About</a></li>
+            <li><a href="about.php">About</a></li>
             <li><a href="#">Events</a></li>
             <li><a href="#">People</a></li>
             <li class="divider"></li>
