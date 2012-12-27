@@ -28,21 +28,57 @@
 </head>
 <body>
   <!-- Header and Nav -->
-  <?php include 'includes/header.php'; ?>
+  <?php include 'includes/header.php';
+  include 'includes/people.php'; ?>
+<div class="row">
+  <div class='two columns'>
+  </div>
+  <div class="ten columns">
+  <?php
+  $student_list = 'students.txt';
+  $char = new GroupList();
+  $char->initialize($student_list);
+  $char->scan_list();
+  $max = count($char->giant_list) - 1;
+  foreach($char->giant_list as $key => $value)
+  {
+    if($key%6 == 0)
+    {
+      echo '<div class="row">'."\n";
+    }
+    echo '<div class="two columns">'."\n";
+    echo '<div class="panel ">'."\n";
+    $char->generate_head($value);
+    echo '</div>'."\n";
+    echo '</div>'."\n";
+    if((($key+1)%6) == 0)
+    {
+      echo '</div>';
+    } else
+    {
+      if($max == $key)
+      {
+        echo '</div>';
+      }
+    }
+  }
+  ?>
+</div>
+</div>
 
-<?php include 'includes/footer.php';?>
+  <?php include 'includes/footer.php';?>
 
-<script src="../javascripts/jquery.js"></script>
-<script src="../javascripts/foundation.min.js"></script>
+  <script src="../javascripts/jquery.js"></script>
+  <script src="../javascripts/foundation.min.js"></script>
 
-<!-- Initialize JS Plugins -->
-<script src="../javascripts/app.js"></script>
+  <!-- Initialize JS Plugins -->
+  <script src="../javascripts/app.js"></script>
 
-<script src="../javascripts/jquery.frontpage.slider.js" type="text/javascript"></script>
+  <script src="../javascripts/jquery.frontpage.slider.js" type="text/javascript"></script>
 
-<script src="../javascripts/jquery.events.js" type="text/javascript" charset="utf-8"></script>
-<script type='text/javascript' src='javascripts/fullcalendar/fullcalendar.js'></script>
-<script type='text/javascript' src='javascripts/fullcalendar/gcal.js'></script>
-<script type='text/javascript' src='javascripts/jquery.calendar.gcal.js'></script>
+  <script src="../javascripts/jquery.events.js" type="text/javascript" charset="utf-8"></script>
+  <script type='text/javascript' src='javascripts/fullcalendar/fullcalendar.js'></script>
+  <script type='text/javascript' src='javascripts/fullcalendar/gcal.js'></script>
+  <script type='text/javascript' src='javascripts/jquery.calendar.gcal.js'></script>
 </body>
 </html>
