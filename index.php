@@ -15,13 +15,14 @@
 
   <!-- Included CSS Files (Uncompressed) -->
   <!--
-  <link rel="stylesheet" href="stylesheets/foundation.css">
+  <link rel="stylesheet" href="stylesheets/foundation.min.css">
 -->
 
 <!-- Included CSS Files (Compressed) -->
-<link rel="stylesheet" href="../stylesheets/foundation.min.css">
-<link rel="stylesheet" href="../stylesheets/foundation.custom.css">
-<link rel="stylesheet" href="../stylesheets/app.css">
+<link rel="stylesheet" href="Society%20of%20Physics%20Students%20-%20UCF_files/foundation.css">
+<link rel="stylesheet" href="Society%20of%20Physics%20Students%20-%20UCF_files/foundation_002.css">
+<link rel="stylesheet" href="Society%20of%20Physics%20Students%20-%20UCF_files/app.css">
+
 
 <script src="../javascripts/modernizr.foundation.js"></script>
 </head>
